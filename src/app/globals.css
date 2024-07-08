@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.hoho {
+  -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 9px rgba(22, 22, 22, 0.75);
+box-shadow: -1px 1px 5px 9px rgba(20, 20, 20, 0.75);
+}
+
