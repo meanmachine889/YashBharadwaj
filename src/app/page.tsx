@@ -33,7 +33,7 @@ export default function Home() {
           style={{ transition: "opacity 0.5s ease-in-out" }}
         >
           <p className="leading-snug">
-            i'm yash 🖐🏽
+            i&apos;m yash 🖐🏽
             <br />a fullstack web developer
             <br /> crafting{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-cyan-500">

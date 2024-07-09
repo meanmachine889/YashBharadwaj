@@ -47,7 +47,7 @@ const Projects = (props: Props) => {
           <p className="text-gray-500 font-bold">ai project</p>
         </div>
       </Link>
-      <Link href={'/'} className="bg-black flex flex-col justify-center items-start col-span-1 lg:row-span-2">
+      <Link href={'/connectz'} className="bg-black flex flex-col justify-center items-start col-span-1 lg:row-span-2">
         <div className="w-[100%] h-[95%] flex justify-center items-center hover:bg-indigo-300 bg-indigo-200">
           <p className="text-white font-normal flex items-center gap-5 text-[5vw]">
             <Image
