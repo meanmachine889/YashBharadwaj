@@ -24,10 +24,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-dot-white/[0.2] min-w-screen flex flex-col items-center bg-black">
+    <div className="min-h-screen bg-dot-white/[0.3] min-w-screen flex flex-col items-center bg-black">
       <div className="flex flex-col w-[85%] max-w-[1200px]">
         <div
-          className={`text-gray-300 lg:px-0 md:px-3 leading-relaxed items-start justify-center flex flex-col font-extrabold md:text-5xl text-3xl min-h-[90vh] xl:min-w-[65vw] transition-all duration-300 ${
+          className={`text-gray-300 lg:px-0 md:px-3 leading-relaxed items-start justify-center flex flex-col font-extrabold md:text-5xl text-3xl min-h-[100vh] xl:min-w-[65vw] transition-all duration-300 ${
             scrollY > 110 ? "opacity-0" : "opacity-100"
           }`}
           style={{ transition: "opacity 0.5s ease-in-out" }}

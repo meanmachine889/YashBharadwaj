@@ -3,24 +3,24 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import { Hedvig_Letters_Sans } from 'next/font/google'
+import Screens from './(components)/screens'
 
 type Props = {}
 
 const Clarity = (props: Props) => {
   return (
     <div className='flex flex-col min-w-screen min-h-screen max-w-screen justify-center items-center'>
-        <div className='md:max-w-[80vw] max-w-[90vw] mt-[5rem] flex flex-col justify-center items-center'>
-            <div className='bg-[#0A0126] overflow-y-hidden lg:w-[80vw] w-[93vw] max-h-fit rounded-2xl justify-center items-center flex gap-9 pt-9 lg:px-9 px-2 pb-5 md:flex-row flex-col-reverse'>
-                <Image quality={100} src={'/coon.svg'} alt='' width={200} height={400} className='md:max-w-[60%] md:-mb-[10%] -mb-[48%]'/>
+        <div className='w-[100%] mt-[5rem] flex flex-col justify-center items-center'>
+            <Link href={'https://connect-z.vercel.app'} className='bg-blue-500 curddor overflow-y-hidden w-[100%] max-h-fit lg:h-[60vh] justify-center items-center flex gap-9 pt-9 lg:px-9 px-2 pb-5 md:flex-row flex-col-reverse'>
+                <Image quality={100} src={'/coon.svg'} alt='' width={200} height={400} className='md:max-w-[60%] md:-mb-[10%] -mb-[5rem]'/>
                 <div className='flex flex-col text-gray-300 md:text-[4vw] text-[9vw] font-extrabold md:items-start items-center justify-center'>
                     <div className='flex lg:gap-5 gap-2 font-thin md:mt-0 mt-5 justify-center md:justify-start items-center'>
                         <p>Connect Z</p>
-                        <Image src={'/connectz.svg'} width={70} height={20} alt='' className='max-w-[20%]'/>
                     </div>
-                    <p className='md:text-[2vw] text-[4vw] font-thin md:text-left text-center md:max-w-[100%] text-gray-500 mt-2'>real time chat application<br/> p.s. not tracked by meta</p>
+                    <p className='md:text-[2vw] text-[4vw] font-thin md:text-left text-center md:max-w-[100%] text-gray-200 mt-2'>real time chat application<br/> p.s. not tracked by meta</p>
                 </div>
-            </div>
-            <div className='flex flex-col rounded-xl min-w-[100%] gap-9 mt-9 justify-center items-center'>
+            </Link>
+            <div className='flex flex-col min-w-[100%] gap-9 mt-9 justify-center items-center'>
                 <p className='md:text-[3vw] text-[7vw] font-bold text-gray-300'>built on</p>
                 <div className='flex justify-center gap-[5vw] flex-wrap w-[90%]'>
                     <div className='rounded-full flex bg-gray-300 p-5 items-center justify-center'>
@@ -46,7 +46,8 @@ const Clarity = (props: Props) => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center py-5 my-7 mt-[4rem] border-2 border-gray-500 w-[100%]'>
+            <Screens/>
+            <div className='flex flex-col justify-center items-center py-5 my-7 mt-[4rem] border-2 border-gray-500 max-w-[85vw]'>
                 <p className='md:text-[3vw] text-[7vw] text-gray-300 font-bold mt-9'>features</p>
                 <div className='flex flex-col gap-9 mt-[4rem] w-[85%]'>
                     <div className='flex flex-col gap-2'>

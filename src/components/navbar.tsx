@@ -7,8 +7,8 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <div className="w-[100vw] mb-9 z-50 flex justify-center items-center">
-      <div className="md:min-w-[80vw] max-w-[1200px] px-4 fixed flex items-center justify-between top-3 min-w-[95vw] rounded-xl py-3 backdrop-blur-lg bg-zinc-900/80 z-50">
+    <div className="w-[100%] border-b-[0.01rem] border-b-gray-800 z-50 flex fixed justify-center items-center">
+      <div className="px-9 flex items-center justify-between w-[100%] py-3 bg-black z-50">
         <div className="flex">
           <p className="font-semibold text-gray-500 md:text-xl text-lg leading-snug">Yash Bharadwaj</p>
         </div>

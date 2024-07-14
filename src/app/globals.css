@@ -38,3 +38,9 @@ body {
 box-shadow: -1px 1px 5px 9px rgba(20, 20, 20, 0.75);
 }
 
+.curdor {
+  cursor : url('/arroww.svg'), auto;
+}
+.curddor {
+  cursor : url('/purple.svg'), auto;
+}
