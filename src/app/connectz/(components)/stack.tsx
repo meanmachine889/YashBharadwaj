@@ -13,7 +13,7 @@ const Stack = (props: Props) => {
             <div className="rounded-full flex bg-gray-300 p-5 items-center justify-center">
               <Image
                 quality={100}
-                src={"https://res.cloudinary.com/dnfv0h10u/image/upload/v1720799651/nextjs_jqbf1o.png"}
+                src={"/react.png"}
                 alt=""
                 width={50}
                 height={200}
@@ -33,7 +33,7 @@ const Stack = (props: Props) => {
             <div className="rounded-full flex bg-gray-300 p-5 items-center justify-center">
               <Image
                 quality={100}
-                src={"/ts.png"}
+                src={"/node.svg"}
                 alt="ts"
                 width={50}
                 height={200}
@@ -43,7 +43,7 @@ const Stack = (props: Props) => {
             <div className="rounded-full flex bg-gray-300 p-5 items-center justify-center">
               <Image
                 quality={100}
-                src={"https://res.cloudinary.com/dnfv0h10u/image/upload/v1720799638/gemini_jk50ez.svg"}
+                src={"/js.svg"}
                 alt=""
                 width={50}
                 height={200}
@@ -53,7 +53,7 @@ const Stack = (props: Props) => {
             <div className="rounded-full flex bg-gray-300 p-5 items-center justify-center">
               <Image
                 quality={100}
-                src={"https://res.cloudinary.com/dnfv0h10u/image/upload/v1720799632/aws_zfy4cr.svg"}
+                src={"/express.svg"}
                 alt=""
                 width={50}
                 height={200}
@@ -63,19 +63,9 @@ const Stack = (props: Props) => {
             <div className="rounded-full flex bg-gray-300 p-5 items-center justify-center">
               <Image
                 quality={100}
-                src={"https://res.cloudinary.com/dnfv0h10u/image/upload/v1720799661/pinecone_vfeezp.png"}
+                src={"/postgres.png"}
                 alt=""
-                width={47}
-                height={200}
-                className="max-w-[8vw]"
-              />
-            </div>
-            <div className="rounded-full flex bg-gray-300 p-5 items-center justify-center">
-              <Image
-                quality={100}
-                src={"https://res.cloudinary.com/dnfv0h10u/image/upload/v1720799672/prisma_sgqmjc.svg"}
-                alt=""
-                width={45}
+                width={50}
                 height={200}
                 className="max-w-[8vw]"
               />
