@@ -89,9 +89,9 @@ const Features = (props: Props) => {
             organizing stats
           </p>
           <p className="md:text-[1.5vw] text-[3vw] font-light md:text-gray-600 text-gray-500">
-            gain insights into your event's performance with our organizing
+            gain insights into your event&apos;s performance with our organizing
             stats. track key metrics such as event name, tickets sold, and
-            detailed day and date information to measure your event's success.
+            detailed day and date information to measure your event&apos;s success.
           </p>
         </div>
         <div className="flex flex-col gap-2">
