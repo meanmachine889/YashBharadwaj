@@ -44,3 +44,8 @@ box-shadow: -1px 1px 5px 9px rgba(20, 20, 20, 0.75);
 .curddor {
   cursor : url('/purple.svg'), auto;
 }
+
+.back{
+  background-image: url('/waves.svg');
+  background-color: black;
+}

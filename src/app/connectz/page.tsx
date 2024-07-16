@@ -28,13 +28,13 @@ const Clarity = (props: Props) => {
   return (
     <div className="flex flex-col min-w-screen min-h-screen max-w-screen justify-center items-center">
       <div className="w-[100%] mt-[3rem] flex flex-col justify-center items-center">
-        <div className="bg-blue-500 curddor overflow-y-hidden w-[100%] h-[94vh] max-h-fit justify-center items-center flex gap-9 pt-9 lg:px-9 px-2 pb-5 md:flex-row flex-col-reverse">
+        <div className="bg-grid-small-blue-400/[0.3]  curddor overflow-y-hidden w-[100%] h-[94vh] max-h-fit justify-center items-center flex gap-9 pt-9 lg:px-9 px-2 pb-5 md:flex-row flex-col-reverse">
           {/* <Image quality={100} src={'/coon.svg'} alt='' width={200} height={400} className='md:max-w-[60%] md:-mb-[10%] -mb-[5rem]'/> */}
           <div className="flex flex-col md:text-[8vw] text-[18vw] font-extrabold items-center justify-center">
-            <div className="flex mx-auto lg:gap-5 font-thin md:mt-0 mt-5 justify-center items-center">
+            <div className="flex text-blue-500 mx-auto lg:gap-5 font-thin md:mt-0 mt-5 justify-center items-center">
               <p>Connect Z</p>
             </div>
-            <p className="md:text-[2vw] text-[6vw] font-thin text-center md:max-w-[100%] mt-2">
+            <p className="md:text-[2vw]  text-[6vw] font-thin text-center md:max-w-[100%] mt-2">
               a real time chat application
               <br />
               p.s. not tracked by meta
@@ -43,14 +43,14 @@ const Clarity = (props: Props) => {
               <Link
                 href={'https://connect-z.vercel.app'}
                 target="_blank"
-                className="rounded-[3rem] gap-5 flex items-center justify-center border-2 md:border-4 hover:bg-white hover:text-blue-500 border-white md:px-7 md:py-4 p-3"
+                className="rounded-[3rem] gap-3 flex items-center justify-center border-2 md:border-4 hover:gap-5 transition-all border-white md:px-7 md:py-4 p-3"
               >
                 visit
                 <ArrowRight />
               </Link>
               <Link
                 href={'https://connect-z.vercel.app'}
-                className="gap-5 rounded-[3rem] flex items-center justify-center border-2 md:border-4 hover:text-white hover:bg-blue-500 bg-white text-blue-500 border-white md:px-7 md:py-4 p-3"
+                className="gap-3 rounded-[3rem] flex items-center justify-center border-2 md:border-4 hover:gap-5 transition-all border-white md:px-7 md:py-4 p-3"
               >
                 github
                 <ArrowRight />
